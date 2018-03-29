@@ -14,8 +14,19 @@ public class PTra07_06 {
 				{500,40,6},
 				{70,8,90,1000}
 		};
-
+		int sum = 0;
+		int count = 0;
 		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
+		for(int[] value:array) {
+			for(int i:value) {
+				sum += i;
+				count += 1;
+			}
+		}
+		System.out.println(sum/count);
+
+
 
 	}
 }
+
