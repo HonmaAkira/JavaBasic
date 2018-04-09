@@ -55,7 +55,7 @@ public class PTra10_05 {
 			sum += i;
 			System.out.println(sum);
 			count++;
-			 if(sum>=300) {
+			 if(sum>=distance) {
 				System.out.println("目的地にまで"+count+"時間かかりました。残りのガソリンは、"+(car.gasoline)+"リットルです");
 				break;
 			}
