@@ -21,28 +21,5 @@ public class PTra13_05 {
 	 * 		上記2つを設定するための引数を持つ
 	 */
 
-public class Item{
-	private String name;
-	private int aditionalDamage;
-
-		public String getname() {
-			return this.name;
-		}
-		public void setname(String name) {
-			this.name= name;
-	}
-
-		public int getaditionalDamage() {
-			return this.aditionalDamage;
-		}
-		public void setaditionalDamage(int aditional) {
-			this.aditionalDamage = aditional;
-		}
-
-		Item(String name,int aditional){
-
-		}
-}
-
 
 }

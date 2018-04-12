@@ -19,7 +19,8 @@ public class Item{
 			this.aditionalDamage = aditional;
 		}
 
-		Item(String name,int aditional){
-
+		public Item(String name,int aditional){
+			this.name = name;
+			this.aditionalDamage =aditional;
 		}
 }
